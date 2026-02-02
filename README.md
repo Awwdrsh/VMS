@@ -13,11 +13,14 @@ The system comes with a default administrator account created automatically on t
 
 ## 🚀 Setup Instructions
 
+<<<<<<< HEAD
 ### Prerequisites
 - **Web Server**: Apache (via XAMPP, WAMP, or MAMP recommended).
 - **PHP**: Version 7.4 or higher.
 - **Database**: MySQL or MariaDB.
 
+=======
+>>>>>>> 3cbfc0ddb326ae8350d2618cc7ed32b173314c6e
 ### Installation
 1. **Clone/Download**:
    - Place the project folder `visitor_sys` into your web server's root directory (e.g., `C:\xampp\htdocs\` or `/Applications/XAMPP/xamppfiles/htdocs/`).

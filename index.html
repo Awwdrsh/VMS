@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="hero">
+        <video autoplay loop muted playsinline id="video-background" poster="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1920&auto=format&fit=crop">
+            <source src="background.mp4" type="video/mp4">
+        </video>
+
+        <nav class="navbar">
+            <span class="logo">Aadarsh Portfolio</span>
+            
+            <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation" id="menu-button">
+                ☰
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Aadarsha K.C.</h1>
+            <p>Cybersecuirty Student & Aspiring Web Developer</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am currently a second-year Cybersecurity student passionate about building 
+            web applications that solve real-world problems. When I'm not studying for exams or 
+            debugging code, you can find me learning new frameworks or contributing to open-source projects.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Tech Stack</h2>
+        <div class="skills-container">
+            <div class="skill-item">HTML5 & CSS3</div>
+            <div class="skill-item">JavaScript </div>
+            <div class="skill-item">Python</div>
+            <div class="skill-item">Java</div>
+            <div class="skill-item">Git & GitHub</div>
+            <div class="skill-item">Responsive Design</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Academic Projects</h2>
+        <div id="projects-grid">
+            
+            <article class="project-card">
+                <img src="https://picsum.photos/seed/tech1/400/250" alt="Project Thumbnail">
+                <div class="card-content">
+                    <h3>Library Management System</h3>
+                    <p>A Java-based application to manage book rentals and student records, created for my Data Structures class.</p>
+                    <button>View Code</button>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="https://picsum.photos/seed/code2/400/250" alt="Project Thumbnail">
+                <div class="card-content">
+                    <h3>Personal Finance Tracker</h3>
+                    <p>A web app using JavaScript and LocalStorage to help students track their monthly budget and expenses.</p>
+                    <button>View Code</button>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="https://picsum.photos/seed/design3/400/250" alt="Project Thumbnail">
+                <div class="card-content">
+                    <h3>University Event Page</h3>
+                    <p>A responsive landing page for the annual tech fest, built with HTML5, CSS Grid, and Flexbox.</p>
+                    <button>View Code</button>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <p style="text-align: center; margin-bottom: 20px;">Open to internships and junior developer roles.</p>
+        
+        <form id="contact-form-id">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Recruiter / Visitor Name">
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="email@example.com">
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="form-message"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Student Portfolio.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
